@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+    cadastro
+
+    <form action="pag2.html" method="post"> 
+        <!-- action significa que ao submeter os dados serão enviados para a página "pag2.html"  -->
+
+        <!-- Diferença entre post e get:-->
+        <!-- GET = Com o método GET, os dados do formulário são anexados à URL na forma de parâmetros de consulta. Isso significa que os dados são visíveis na barra de endereço do navegador e podem ser armazenados em caches de histórico ou de pesquisa. O método GET é mais adequado para formulários simples que não envolvem dados confidenciais.-->
+        <!-- POST = Com o método POST, os dados do formulário são enviados como uma carga útil do corpo da requisição HTTP. Isso significa que os dados não são visíveis na barra de endereço do navegador e não são armazenados em caches de histórico ou de pesquisa. O método POST é mais adequado para formulários que envolvem dados confidenciais ou grandes quantidades de dados.:-->
+
+        <fieldset>
+
+            <p>
+            <label for="idnome"> Nome: </label>
+            <input type="text" id="idnome" size="50"/>
+            </p>
+
+            <p>
+            <label for="idemail"> Email: </label>
+            <input type="text" id="idemail" size="50"/>
+            </p>
+
+            <p>
+            <label for="idfone"> Telefone: </label>
+            <input type="text" id="idfone" size="15" maxlength="15"/>
+            </p>
+
+            
+            <p>
+            <label for="idendereco"> Endereço: </label>
+            <input type="text" id="idendereco" size="60"/>
+            </p>
+
+            <p>
+            <label for="idtata"> Data de Nascimento: </label>
+            <input type="date" id="iddata"/>
+            </p>
+
+
+
+            <p>
+            <label for="idgenero"> Gênero: </label>
+            <input type="radio" name="genero" value="masc" id="idmasc"/>
+            <label for="idmasc"> Masculino </label>
+
+            <input type="radio" name="genero" value="fem" id="idfem"/>
+            <label for="idfem"> Feminino </label>
+
+            <input type="radio" name="genero" value="outro" id="idoutro"/>
+            <label for="idoutro"> Outro </label>
+            </p>
+
+           
+        
+            
+            <p>
+            <label for="idsugestao">outras duvidas: </label> <br>
+            <textarea id="idsugestao" cols="70" rows="5"></textarea>
+            </p>
+
+            <p>
+            <input type="submit" id="idenviar" value="Enviar"/>
+            <input type="reset" id="limpar" value="Limpar" />
+            </p>
+        
+        </fieldset>
+
+    </form>
+
+</body>
+</html>

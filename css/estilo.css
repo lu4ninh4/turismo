@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(227, 231, 231);
+}
+
+.header{
+    position: relative;
+    height: 120px;
+    border-bottom: 2px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-size-adjust: auto;
+    font-family: cursive;
+}
+section{
+    color: rgb(20, 21, 22);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Excursões{
+    color: aliceblue;
+}
+
+.fundo{
+    position: absolute;
+}
+
+.fundo img{
+    right:100%;
+    height: 100%;
+    width: 100%;
+position: absolute;
+}
+.cards{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1{
+    background-color: rgb(73, 176, 236);
+}
+.card2{
+    background-color: rgb(155, 205, 245);
+    position: 50px;
+}
+.card3{
+    background-color: rgb(119, 187, 230);
+}
+
+
+.card1, .card2, .card3{
+    position:relative;
+    width: 25%;
+    height: 200px;
+    border-radius: 8px;
+    transition: all 0.3s ease-out;
+}
+
+
+.card1:hover, .card2:hover, .card3:hover{
+    transform: translateY(-20px)
+}
+
+.item1{
+    position: absolute;
+    color:azure;
+    top: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+    font-size-adjust: auto;
+    font-family: Brush Script MT;
+  
+}
+
+.item2{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    text-align: center;
+}
+
+.item2 a{
+    color: azure;
+    text-decoration: none;
+}
+
+.item2 a:hover{
+    color: rgb(32, 88, 173);
+}
+
+.item3{
+    position: absolute;
+    width:30%;
+    height: 60px;
+    bottom: 5px;
+    right:5px;
+
+}
+
+
+
+.conteudo{
+    position: relative;
+    width:80%;
+    left: 10%;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem{
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+
+.imagem table{
+    width: 50%;
+    height: 50%;
+}
+
+
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.tabela {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    width: 80%; /* Define a largura da tabela */
+    left: 10%; /* Define a posição da tabela em relação ao lado esquerdo da página */
+    top: 80px; /* Define a posição da tabela em relação ao topo da página */
+    display: flex;
+    justify-content: center; /* Centraliza a tabela horizontalmente */
+    border-collapse: collapse; /* Remove as bordas entre as células da tabela */
+}
+
+.tabela table {
+    width: 90%; /* Define a largura da tabela dentro da div .tabela */
+    left: 10%; /* Define a posição da tabela em relação ao lado esquerdo da div .tabela */
+    background-color: rgb(214, 214, 214); /* Define a cor de fundo da tabela */
+    text-align: center; /* Centraliza o texto dentro das células da tabela */
+    color: rgb(8, 8, 8); /* Define a cor do texto dentro das células da tabela */
+}
+
+.tabela th,
+.tabela td {
+    border: 3px solid rgb(77, 120, 160); /* Define a largura e a cor das bordas das células da tabela */
+    font-size: 2vw; /* Define o tamanho da fonte do texto dentro das células da tabela */
+    padding: 15px; /* Define o espaço entre o texto e as bordas das células da tabela */
+    text-size-adjust: auto;
+}
+
+.tabela th {
+    color: rgb(92, 140, 194); /* Define a cor do texto dentro das células de cabeçalho da tabela */
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #93aed6; /* Define a cor de fundo das linhas pares da tabela */
+}
+
+.tabela tr:hover {
+    background-color: white; /* Define a cor de fundo das células da tabela ao passar o mouse por cima */
+}
+
+.menu{
+    position:relative;
+    height:50px;
+    background-color: rgb(138, 176, 219);
+    display: flex;
+    justify-content: center;
+}
+
+.menu table{
+    width: 40%;
+    text-align: center;
+}
+
+.menu table tr td a{
+    text-decoration: none;
+    color:rgb(250, 255, 240);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu table tr td a:hover{
+    color: rgb(36, 89, 99);
+}
+
+.footer{
+    position: relative;
+   
+    background-color: rgb(236, 233, 233);
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:100px;
+    color: rgb(238, 238, 243);
+    top: 0;
+    left: 0;
+}
+
